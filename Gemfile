@@ -32,6 +32,9 @@ gem 'spring',        group: :development
 
 gem 'puma'
 
+# require soda gem for open boston api
+gem 'soda-ruby', :require => 'soda'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
