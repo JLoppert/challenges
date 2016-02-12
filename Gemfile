@@ -35,6 +35,12 @@ gem 'puma'
 # require soda gem for open boston api
 gem 'soda-ruby', :require => 'soda'
 
+# Require Github markup gem for text to html converters
+gem 'github-markup'
+
+# Require the Markdown converter gem
+gem 'redcarpet'
+
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
