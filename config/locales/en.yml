@@ -20,4 +20,11 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  earnings_report: "Employee Earnings Report"
+  load_report: "Load Report"
+  search: "Search"
+  title: "City of Boston.gov"
+  total_earnings: "Total Earnings"
+  total_earnings_average: "Average Total Earnings for \"%{title}\": $%{average}"
+  total_earnings_placeholder: "Search by Title"
+  year: "year"

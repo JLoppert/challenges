@@ -1,0 +1,11 @@
+<h1><%= t(:earnings_report) %> <%= @year %></h1>
+<form class="form-inline" action=<%= "/earnings_report/#{@year}/total_earnings" %>>
+  <div class="form-group">
+    <div class="input-group">
+      <input type="text" id="title" name="title" class="form-control" placeholder="<%= t(:total_earnings_placeholder) %>">
+    </div>
+  </div>
+  <button type="submit" class="btn btn-primary"><%= t(:search) %></button>
+</form>
+<h2><%= t(:total_earnings_average, title: @title, average: @average ) %></h2>
+<%= render partial: 'table' %>

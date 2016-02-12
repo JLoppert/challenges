@@ -1,0 +1,14 @@
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <%= link_to t(:title), root_path, class: 'navbar-brand' %>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <% EARNINGS_REPORT_YEARS.each do |year| %>
+          <li><%= link_to year, "/earnings_report/#{year}" %></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
