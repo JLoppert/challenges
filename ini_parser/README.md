@@ -38,9 +38,9 @@ Settings
 
 Overrides
 ---------
-*overrides are provided as string or symbols that are case sensitive
-*for example if the override is defined in the config
-*path<Ubuntu> but the override provided is 'ubuntu' the config value is NOT triggered
+* overrides are provided as string or symbols that are case sensitive
+* for example if the override is defined in the config
+* path<Ubuntu> but the override provided is 'ubuntu' the config value is NOT triggered
 
 Usage
 -----
