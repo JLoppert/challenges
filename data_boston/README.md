@@ -1,10 +1,12 @@
-# About
+Problem
+-------
+Using the Boston Employee Earnings Report, create a simple web API service which given a job title, will respond with the average salary for that position.
 
-## Motivation
-The city of Boston is committed to transparency and has made key government records available to the public on the city's [website](https://data.cityofboston.gov/).
+## Requirements
 
-## Problem
-Create a simple web API service which given a job title, will respond with the average salary for that position.
+* The average salary should be based on Total Earnings and not Regular.
+* title should allow for case insensitve comparison.
+* title should match on partials (example, teacher should match Teacher, Teacher I, Subsitute Teacher, etc)
 
 ## API
 The application exposes an API to retrieve an average salary for a given employee title and year. The average salary is based on `Total Earnings` column of the Earnings Report for the provided year
@@ -27,7 +29,7 @@ XXXX.XX
 
 ### Specific example
 Request
-<a href="/earnings_report/2014/total_earnings.json?title=Assistant" target="_blank">/earnings\_report/2014/total\_earnings.json?title=Assistant</a>
+<a href="http://sheltered-springs-64102.herokuapp.com/earnings_report/2014/total_earnings.json?title=Assistant" target="_blank">/earnings\_report/2014/total\_earnings.json?title=Assistant</a>
 
 
 Response
